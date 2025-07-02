@@ -86,3 +86,11 @@ background-color: bisque;
     border: 3px solid black;
     display: inline-block;
 }
+
+/*Media Queries*/
+@media (min-width:430px) and (max-width:450px){
+    body{
+    margin: 0 16px
+}
+    
+}
