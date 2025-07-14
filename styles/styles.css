@@ -42,7 +42,7 @@ p:first-child{
     width: 180px;
 }
 
-.navbar{
+.bg-navbar-propio{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
