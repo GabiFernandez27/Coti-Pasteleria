@@ -19,3 +19,13 @@
         padding: 8px;
         background-color: bisque;
 }
+
+.li-nav{list-style: none;}
+
+
+.bg-navbar-propio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+}
