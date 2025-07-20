@@ -1,0 +1,21 @@
+@use"../utilities/variables";
+
+.navbar 
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+}
+
+
+.nav-link{
+        display: inline-block;
+        margin: 16px;
+        text-decoration: none;
+        color: variables.$color;
+        border: 1px solid variables.$color;
+        border-radius: 5px;
+        padding: 8px;
+        background-color: bisque;
+}

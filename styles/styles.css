@@ -14,4 +14,54 @@ body {
   font-size: 20px;
 }
 
+h1 {
+  color: black;
+  font-family: "Ancizar Serif", serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 8px 16px;
+}
+
+h2 {
+  color: black;
+  font-size: 20px;
+}
+
+p {
+  color: black;
+  text-align: center;
+  margin: 8px 16px;
+}
+
+.parrafo-contacto {
+  font-size: x-large;
+}
+
+.parrafo-pintado:hover {
+  color: red;
+}
+
+p:first-child {
+  color: brown;
+  font-size: large;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav-link {
+  display: inline-block;
+  margin: 16px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: bisque;
+}
+
 /*# sourceMappingURL=styles.css.map */

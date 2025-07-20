@@ -1,0 +1,33 @@
+@use"../utilities/variables";
+
+h1{
+    color: variables.$color;
+    font-family: "Ancizar Serif", serif;
+    font-size: variables.$main-size;
+    text-align: center;
+    margin: 8px 16px;
+}
+
+h2{
+    color: variables.$color;
+    font-size: 20px;}
+
+p{
+    color: variables.$color;
+    text-align: center;
+    margin: 8px 16px;
+
+}
+
+.parrafo-contacto{
+    font-size: x-large;
+}
+
+.parrafo-pintado{
+    &:hover{color: red;}
+}
+
+p:first-child{
+    color: brown;
+    font-size: large;
+}

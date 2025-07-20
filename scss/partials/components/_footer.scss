@@ -1,6 +1,6 @@
-
+@use"../utilities/variables";
 
 .p-final{
-    color: black;
+    color: variables.$color;
     font-size: 20px;
 }
