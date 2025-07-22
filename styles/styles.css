@@ -17,7 +17,7 @@ body {
 h1 {
   color: black;
   font-family: "Ancizar Serif", serif;
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
   margin: 8px 16px;
 }
@@ -90,7 +90,7 @@ p:first-child {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
 .nav-link {
@@ -135,10 +135,11 @@ p:first-child {
 }
 
 .card-container {
-  margin: 32px 16px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  margin: 32px 16px;
   gap: 32px;
   flex-wrap: wrap;
 }
@@ -159,6 +160,7 @@ p:first-child {
   border: 1px solid black;
   border-radius: 5px;
   width: 300px;
+  background-color: bisque;
 }
 
 .card h4 {
@@ -180,13 +182,30 @@ p:first-child {
   align-items: center;
 }
 
-.card button {
+.button, .button-inicio, .button-carrito {
   text-decoration: none;
   color: black;
   padding: 8px;
   border: 1px solid black;
   display: inline-block;
   border-radius: 5px;
+}
+.button:hover, .button-inicio:hover, .button-carrito:hover {
+  color: blue;
+}
+
+.button-carrito {
+  background-color: rgb(249, 103, 50);
+}
+.button-carrito:hover {
+  color: green;
+}
+
+.button-inicio {
+  background-color: bisque;
+}
+.button-inicio:hover {
+  color: red;
 }
 
 /*# sourceMappingURL=styles.css.map */

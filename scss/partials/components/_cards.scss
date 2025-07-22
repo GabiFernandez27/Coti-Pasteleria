@@ -1,9 +1,8 @@
+@use"../utilities/mixins";
 
 .card-container{
+    @include mixins.flex(row,center,center);
     margin: 32px 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     gap: 32px;
     flex-wrap: wrap;
 }
@@ -11,7 +10,7 @@
 /*producto*/
 
 .section-1-producto{
- color: black;
+    color: black;
     margin: 50px;
     padding: 10px;
     border: 3px solid black;
@@ -25,6 +24,7 @@
     border: 1px solid black;
     border-radius: 5px;
     width: 300px;
+    background-color: bisque;
 }
 
 .card h4{
@@ -45,11 +45,4 @@
     align-items: center;
 }
 
-.card button{
-    text-decoration: none;
-    color: black;
-    padding: 8px;
-    border: 1px solid black;
-    display: inline-block;
-    border-radius: 5px;
-}
+

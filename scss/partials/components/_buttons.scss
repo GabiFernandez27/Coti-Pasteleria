@@ -1,0 +1,24 @@
+
+
+.button{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 5px;
+    &:hover{color: blue};
+}
+
+.button-carrito {
+    @extend .button;
+    background-color: rgb(249, 103, 50);
+    &:hover{color: green};
+    
+}
+
+.button-inicio{
+    @extend .button;
+    background-color: bisque;
+    &:hover{color: red;}
+}
