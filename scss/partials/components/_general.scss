@@ -68,16 +68,15 @@ p:first-child{
     justify-content: flex-start;
 }
 
+h1{
+    background-color: aqua;
+    ba
+}
 /*Media Queries*/
 @media (max-width:991px){
     
 body {
-    margin: 0 16px
-}
-
-.producto h1 {
-    font-size: small;
-    background-color: aqua;
+    margin: 0 15px;
 }
 
 .navbar {
